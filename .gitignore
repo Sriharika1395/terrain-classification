@@ -1,0 +1,30 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Project cache / working / checkpoints (large, regenerable — don't commit)
+working/
+temp/
+cache/
+scales/
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Dataset (too large for git, download separately)
+data/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
